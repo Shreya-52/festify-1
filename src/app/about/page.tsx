@@ -110,7 +110,7 @@ export default function AboutPage() {
             {[
               { name: "Rishika Raj", id: "RA2411030010059", role: "Full Stack Developer", color: "from-pink-500 to-rose-600" },
               { name: "Allan Roy", id: "RA2411030010028", role: "Full Stack Developer", color: "from-purple-500 to-violet-600" },
-              { name: "Shreya Sunil", id: "RA2411030010048", role: "Full Stack Developer", color: "from-indigo-500 to-blue-600" }
+              { name: "Shreya Sunil", id: "RA2411030010043", role: "Full Stack Developer", color: "from-indigo-500 to-blue-600" }
             ].map((member, i) => (
               <Card key={i} className="glass p-8 text-center group hover:scale-105 transition-transform duration-300">
                 <div className={`h-24 w-24 rounded-full bg-gradient-to-br ${member.color} flex items-center justify-center text-3xl font-bold text-white mx-auto mb-4 glow-md group-hover:scale-110 transition-transform`}>
